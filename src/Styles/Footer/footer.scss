@@ -309,3 +309,15 @@
     }
     
 }
+
+@media screen and (max-width:425px) {
+    .footer .footerContent .footerTop .topRight .rightContent h4{
+        font-size: 8px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub input{
+        &::placeholder{
+            font-size: 10px;
+        }
+    }
+    
+}
