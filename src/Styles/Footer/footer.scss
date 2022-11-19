@@ -252,3 +252,35 @@
     }
 
 }
+@media screen and (max-width:600px) {
+    .footer .footerContent{
+        width: 95%;
+        
+    }
+    .footer .footerContent .footerTop .topLeft p{
+        font-size: 7px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .footer .footerContent .footerTop .topLeft p{
+        font-size: 4px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent h4{
+        font-size: 10px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub{
+        height: 10px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub input{
+        height: 8px;
+        &::placeholder{
+            font-size: 5px;
+        }
+        .footer .footerContent .footerTop .topRight .details .aboutUs p{
+            font-size: 2px;
+        }
+    }
+    
+}
