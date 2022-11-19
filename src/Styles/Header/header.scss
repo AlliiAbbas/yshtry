@@ -401,3 +401,19 @@
     }
     
 }
+@media screen and (max-width :600px) 
+{
+    .header .headerCenter .centerComponent .logoCenter img{
+        display: none;
+    }
+    .header .headerCenter .centerComponent .search {
+        display: none;
+    }
+    .header .headerCenter{
+        width: 0px;
+    }
+    .header .headerTop .topComponent .topLeft{
+        width: 0px;
+        padding-left: 50px;
+    }
+}

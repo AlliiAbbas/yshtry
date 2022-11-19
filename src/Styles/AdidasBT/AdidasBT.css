@@ -763,3 +763,163 @@
     height: 100px;
   }
 }
+@media screen and (max-width: 600px) {
+  .adidasBlackT .topSide .productImgs .imgTop > div .productImg {
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+  }
+  .adidasBlackT .topSide .productImgs {
+    width: 30%;
+  }
+  .adidasBlackT .topSide .productImgs .imgTop > div .img360 {
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .rate {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .rate span {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .rate img {
+    width: 10px;
+  }
+  .adidasBlackT .topSide .productImgs .imgTop > div .img360 img {
+    width: 25px;
+    height: 25px;
+  }
+  .adidasBlackT .topSide .productImgs .imgBottm .sliderImg {
+    width: 30px;
+    height: 30px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .name img {
+    width: 40px;
+    height: 30px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .name h3 {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .name p {
+    font-size: 9px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .rate p {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .price h2 {
+    font-size: 10px;
+    margin: 0;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .price s {
+    font-size: 10px;
+    margin: 0;
+  }
+  .adidasBlackT .topSide .productInfo .sizes h2 {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .sizes label p {
+    width: 15px;
+    height: 15px;
+    font-size: 4px;
+  }
+  .adidasBlackT .topSide .productInfo .sizes input:checked + p {
+    width: 15px;
+    height: 15px;
+    font-size: 4px;
+  }
+  .adidasBlackT .topSide {
+    width: 100%;
+  }
+  .adidasBlackT .topSide .productInfo .colors h2 {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .colors input:checked + .imge {
+    width: 20px;
+    height: 20px;
+  }
+  .adidasBlackT .topSide .productInfo .colors label img {
+    width: 20px;
+    height: 20px;
+  }
+  .adidasBlackT .topSide .productInfo .quantity h2 {
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .quantity .counter {
+    width: 120px;
+    height: 30px;
+  }
+  .adidasBlackT .topSide .productInfo .quantity .counter span {
+    width: 25px;
+    height: 25px;
+  }
+  .adidasBlackT .topSide .productInfo .quantity .buttons .cart {
+    height: 30px;
+    font-size: 10px;
+  }
+  .adidasBlackT .topSide .productInfo .quantity .buttons .store {
+    height: 30px;
+    font-size: 8px;
+  }
+  .adidasBlackT .topSide .productInfo .infoOne .price {
+    width: 100%;
+  }
+  .adidasBlackT .topSide .productInfo .sizes label {
+    margin: 3px;
+  }
+  .adidasBlackT .bottomSide .bottomHeader h1 {
+    font-size: 14px;
+  }
+  .adidasBlackT .bottomSide .bottomHeader p {
+    font-size: 10px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart img.imgProduct {
+    width: 80px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart h6 {
+    font-size: 10px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .priceLogo .price p {
+    font-size: 10px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .priceLogo .price div s {
+    font-size: 8px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .priceLogo .price div span {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .priceLogo .price div span p {
+    font-size: 8px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .priceLogo img {
+    width: 30px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .rate img {
+    width: 10px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .rate span {
+    font-size: 10px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .picked label {
+    font-size: 8px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .picked span {
+    font-size: 8px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .imgs .centerImg .img360 {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+  }
+  .adidasBlackT .bottomSide .bottomContent .similarCart .imgs .centerImg .img360 img {
+    width: 15px;
+    height: 15px;
+  }
+}

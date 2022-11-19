@@ -162,3 +162,93 @@
         margin-left: 20px;
     }
 }
+@media screen and (max-width :768px){
+    .footer .footerContent .footerTop .topLeft img{
+        width: 100px;
+    }
+    .footer .footerContent .footerTop .topLeft p{
+        font-size: 10px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent h4{
+        font-size: 14px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub{
+        height: 20px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub input{
+        height: 15px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub button{
+        width: 25%;
+        font-size: 7px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub button img {
+        width: 7px;
+    }
+    .footer .footerContent .footerTop .topRight .details .aboutUs p{
+        font-size: 10px;
+    }
+    .footer .footerContent .footerTop .topRight .details .logos div span{
+        font-size: 10px;
+    }
+    .footer .footerContent .footerTop .topRight .details .logos div img{
+        width: 20px;
+    }
+    .footer .footerContent .footerFooter .left{
+        font-size: 10px;
+    }
+    .footer img {
+        width: 40px;
+    }
+    .footer .footerContent .footerFooter .right p{
+        font-size: 10px;
+    }
+    .footer .footerContent .footerFooter .right img{
+        width: 50px;
+    }
+}
+@media screen and (max-width :320px){
+    .footer .footerContent .footerTop .topLeft{
+        width: 50%;
+    }
+    .footer .footerContent .footerTop .topLeft p{
+        font-size: 3px;
+    }
+    .footer .footerContent .footerTop .topLeft img{
+        width: 20px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent h4{
+        font-size: 8px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub{
+        height: 20px;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub button{
+        font-size: 3px;width: 40%;
+    }
+    .footer .footerContent .footerTop .topRight .details .aboutUs p{
+        font-size: 8px
+        ;
+    }
+    .footer .footerContent .footerTop .topRight .details .logos div span{
+        font-size: 7px;
+    }
+    .footer .footerContent .footerTop .topRight .details .logos div img{
+        width: 12px;
+    }
+    .footer .footerContent .footerFooter .left{
+        font-size: 5px;
+    }
+    .footer .footerContent .footerFooter .center img{
+        margin: 2px;
+        width: 8px;
+    }
+    .footer .footerContent .footerFooter .right p{
+        font-size: 7px;
+    }
+    .footer .footerContent .footerFooter .right img{
+        width: 30px;
+        height: 5px;
+    }
+
+}

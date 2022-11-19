@@ -56,7 +56,7 @@ import'../../Styles/Footer/footer.css'
         </div>
         <div className='footerFooter'>
         <div className='left'><p>© 2021 yeshtery, all rights reserved.</p></div>
-        <div className='center'><img src={cash} alt="" /><img src={visa} alt="" /><img src={master} alt="" /></div>
+        <div className='center'><img src={cash} alt=""  className="cash"/><img src={visa} alt="" /><img src={master} alt="" /></div>
         <div className='right'>
             <p>Powered By</p> <img src={navnas} alt="" />
         </div>
