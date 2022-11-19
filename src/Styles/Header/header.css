@@ -316,7 +316,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  width: 25%;
+  width: 38%;
   background-color: white;
 }
 .header .headerCenter .floatClose .cardWhite .X, .header .headerCenter .floatOpen .cardWhite .X {
@@ -582,9 +582,43 @@
   .header .headerCenter .floatClose .cardWhite, .header .headerCenter .floatOpen .cardWhite {
     width: 40%;
   }
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .info p, .header .headerCenter .floatOpen .cardWhite .slecetedCard .info p {
+    font-size: 10px;
+  }
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .img img, .header .headerCenter .floatOpen .cardWhite .slecetedCard .img img {
+    width: 60px;
+  }
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .info h2, .header .headerCenter .floatOpen .cardWhite .slecetedCard .info h2 {
+    font-size: 10px;
+  }
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .remove, .header .headerCenter .floatOpen .cardWhite .slecetedCard .remove {
+    width: 20%;
+    font-size: 8px;
+  }
+  .header .headerCenter .floatClose .cardWhite .total h3, .header .headerCenter .floatOpen .cardWhite .total h3 {
+    font-size: 15px;
+  }
+  .header .headerCenter .floatClose .cardWhite .total span, .header .headerCenter .floatOpen .cardWhite .total span {
+    font-size: 15px;
+  }
+  .header .headerCenter .floatClose .cardWhite .buttons .review, .header .headerCenter .floatOpen .cardWhite .buttons .review {
+    height: 25px;
+  }
+  .header .headerCenter .floatClose .cardWhite .buttons .Comp, .header .headerCenter .floatOpen .cardWhite .buttons .Comp {
+    height: 25px;
+    font-size: 8px;
+  }
 }
 @media screen and (max-width: 600px) {
   .header .headerCenter .floatClose .cardWhite, .header .headerCenter .floatOpen .cardWhite {
     width: 70%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .img img, .header .headerCenter .floatOpen .cardWhite .slecetedCard .img img {
+    width: 80px;
+  }
+  .header .headerCenter .floatClose .cardWhite .slecetedCard .info p, .header .headerCenter .floatOpen .cardWhite .slecetedCard .info p {
+    font-size: 12px;
   }
 }
