@@ -316,8 +316,22 @@
     }
     .footer .footerContent .footerTop .topRight .rightContent .sub input{
         &::placeholder{
-            font-size: 10px;
+            font-size: 8px;
         }
     }
     
+}
+@media screen and (max-width :470px) {
+    .footer .footerContent .footerTop .topRight .rightContent .sub input{
+        &::placeholder{
+            font-size: 8px;
+        }
+    }
+}
+@media screen and (max-width :324px) {
+    .footer .footerContent .footerTop .topRight .rightContent .sub input{
+        &::placeholder{
+            font-size: 6px;
+        }
+    }
 }
