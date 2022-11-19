@@ -578,3 +578,13 @@
     padding-left: 50px;
   }
 }
+@media screen and (max-width: 425px) {
+  .header .headerCenter .floatClose .cardWhite, .header .headerCenter .floatOpen .cardWhite {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header .headerCenter .floatClose .cardWhite, .header .headerCenter .floatOpen .cardWhite {
+    width: 70%;
+  }
+}
