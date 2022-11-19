@@ -1,0 +1,20 @@
+@mixin  center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@mixin img360 {
+    @include center ;
+                    background-color: white;
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 7px;
+                    box-shadow: 1px;
+                    box-shadow: 0px 0px 3px #00000040;
+                    cursor: pointer;
+    
+}

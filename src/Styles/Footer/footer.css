@@ -1,0 +1,236 @@
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #3C3C3B;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.footer .footerContent {
+  width: 70%;
+}
+.footer .footerContent .footerTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footerContent .footerTop .topLeft {
+  width: 45%;
+}
+.footer .footerContent .footerTop .topLeft img {
+  margin-top: 50px;
+}
+.footer .footerContent .footerTop .topLeft p {
+  word-break: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  height: 252px;
+}
+.footer .footerContent .footerTop .topRight {
+  margin: 40px 0 0 80px;
+  width: 55%;
+  border-left: 0.25px solid #868686;
+}
+.footer .footerContent .footerTop .topRight .rightContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+}
+.footer .footerContent .footerTop .topRight .rightContent h4 {
+  font-size: 18px;
+  color: white;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #FFFFFF;
+  width: 90%;
+  padding: 5px;
+  height: 48px;
+  border-radius: 24px;
+  margin-left: 5PX;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input {
+  width: 70%;
+  border: none;
+  font-size: 12px;
+  color: #542E90;
+  height: 30px;
+  margin: 0 5px 0 5px;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input:focus {
+  outline: none;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input::-webkit-input-placeholder {
+  color: #542E90;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input::-moz-placeholder {
+  color: #542E90;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input:-ms-input-placeholder {
+  color: #542E90;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input::-ms-input-placeholder {
+  color: #542E90;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub input::placeholder {
+  color: #542E90;
+}
+.footer .footerContent .footerTop .topRight .rightContent .sub button {
+  width: 30%;
+  background-color: #FFF100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  height: 90%;
+  font-weight: bold;
+  border-radius: 19px;
+  cursor: pointer;
+  border: none;
+}
+.footer .footerContent .footerTop .topRight .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0 0 45px;
+}
+.footer .footerContent .footerTop .topRight .details .aboutUs {
+  border-right: 0.25px solid #868686;
+  width: 60%;
+}
+.footer .footerContent .footerTop .topRight .details .aboutUs p {
+  font-size: 16px;
+  color: white;
+}
+.footer .footerContent .footerTop .topRight .details .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 40%;
+}
+.footer .footerContent .footerTop .topRight .details .logos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+.footer .footerContent .footerTop .topRight .details .logos div img {
+  margin-right: 5px;
+}
+.footer .footerContent .footerTop .topRight .details .logos div span {
+  color: white;
+  font-size: 16px;
+}
+.footer .footerContent .footerFooter {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 0.25px solid #868686;
+}
+.footer .footerContent .footerFooter .left {
+  font-size: 16px;
+  color: white;
+}
+.footer .footerContent .footerFooter .center img {
+  margin: 10px;
+}
+.footer .footerContent .footerFooter .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .footerContent .footerFooter .right p {
+  font-size: 14px;
+  margin-right: 5px;
+  color: white;
+}
+.footer .footerContent .footerFooter .right img {
+  width: 100px;
+  height: 19px;
+}
+
+@media screen and (max-width: 1320px) {
+  .footer .footerContent .footerTop .topLeft {
+    overflow: hidden;
+  }
+  .footer .footerContent .footerTop .topRight .rightContent .sub button {
+    font-size: 8px;
+  }
+  .footer .footerContent .footerTop .topRight .details .logos {
+    margin-left: 20px;
+  }
+}

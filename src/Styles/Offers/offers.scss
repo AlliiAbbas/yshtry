@@ -1,0 +1,32 @@
+@use "../variables/variables.scss" as *;
+@use '../mixins/mixins.scss' as * ;
+
+.offers{
+    @include center;
+    width: 100%;
+    flex-direction: column;
+    user-select: none;
+    .offersLinks{
+        @include center;
+        width: 100%;
+        border-bottom: 1px solid rgb(149, 149, 149);
+        user-select: none;
+    nav{
+        @include center;
+        justify-content: flex-start;
+        width: 70%;
+        height: 50px;
+        
+        span{
+            margin: 0 2px 0 2px ;
+        }
+        a{
+            color: black;
+            font-weight: bold;
+        }
+        a.active{
+            text-decoration: none;
+        }
+    }
+}
+}

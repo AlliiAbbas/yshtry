@@ -1,0 +1,164 @@
+@use "../variables/variables.scss" as *;
+@use '../mixins/mixins.scss' as * ;
+
+.footer{
+   
+    width: 100%;
+    margin-top: 50px;
+    @include center;
+    flex-direction: column;
+    background-color: #3C3C3B;
+    user-select: none;
+    .footerContent{
+        width: 70%;
+        .footerTop{
+           display: flex;
+            .topLeft{
+                width: 45%;
+                img{
+                    margin-top: 50px;
+                }
+                p{
+                    
+                    word-break: normal;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    height: 252px;
+                    
+                    
+                   
+                    
+                }
+                
+            }
+            .topRight{
+                margin: 40px 0 0 80px;
+                width: 55%;
+                border-left: .25px solid #868686;
+                
+                .rightContent{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 50px;
+                    h4{
+                        font-size: 18px;
+                        color: white;
+                    }
+                    .sub{
+                        @include center;
+                        justify-content: flex-start;
+                        background-color: #FFFFFF;
+                        width: 90%;
+                        padding: 5px;
+                        height: 48px;
+                        border-radius: 24px;
+                        margin-left: 5PX;
+                        input{
+                            width: 70%;
+                            border: none;
+                            font-size: 12px;
+                            color: $primary-color;
+                            height: 30px;
+                            margin: 0 5px 0 5px;
+                            &:focus{
+                                outline: none;
+                            }
+                            &::placeholder{
+                                color: $primary-color;
+                            }
+                        }
+                        button{
+                            width: 30%;
+                            background-color: $secondary-color;
+                            @include center;
+                            color: black;
+                            height: 90%;
+                            font-weight: bold;
+                            border-radius: 19px;
+                            cursor: pointer;
+                            border: none;
+                        }
+                    }
+                }
+                .details{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 20px 0 0 45px;
+                    .aboutUs{
+                        
+                        border-right:.25px solid #868686 ;
+                        width: 60%;
+                        p{
+                            font-size: 16px;
+                            color: white;
+                        }
+                    }
+                    .logos{
+                        @include center;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        width: 40%;
+                        
+                        div{
+                            @include center;
+                            margin-top: 10px;
+                            img{
+                                margin-right: 5px;
+                            }
+                            span{
+                                color: white;
+                                font-size: 16px;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        .footerFooter{
+            margin-top: 10px;
+            @include center;
+            justify-content: space-between;
+            border-top: .25px solid #868686;
+            .left{
+                font-size: 16px;
+                color: white;
+            }
+            .center{
+                img{
+                    margin: 10px;
+                }
+               
+            }
+            .right{
+                @include center;
+                p{
+                    font-size: 14px;
+                    margin-right: 5px;
+                    color: white;
+
+                }
+                img{
+                    width: 100px;
+                    height: 19px;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1320px){
+    .footer .footerContent .footerTop .topLeft {
+        overflow: hidden;
+    }
+    .footer .footerContent .footerTop .topRight .rightContent .sub button{
+        font-size: 8px;
+    }
+    .footer .footerContent .footerTop .topRight .details .logos{
+        margin-left: 20px;
+    }
+}

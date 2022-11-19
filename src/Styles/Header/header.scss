@@ -1,0 +1,403 @@
+@use "../variables/variables.scss" as *;
+@use '../mixins/mixins.scss' as * ;
+
+.header{
+    @include center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+   
+.headerTop{
+    @include center;
+    width: 100%;
+    height: 42px;
+    background-color: $secondary-color; 
+    box-shadow: 0px 0.92px 3px #00000080;
+    .topComponent{
+        @include center;
+        width: 70%;
+        height: 48px;
+        justify-content: space-between;
+        .topLeft{
+            
+            @include center;
+            
+            .logo{
+                width: 116px;
+                height: 30px;
+                cursor: pointer;
+            }
+            .bars{
+                width: 24px;
+                height: 18px;
+                margin-right: 20px;
+                cursor: pointer;
+            }
+           
+        }
+        .topCenter{
+            @include center ;
+            margin-left: 10px;
+            .arrowRight{
+                margin-left: 5px;
+                width: 8px;
+                height: 12px;
+            }
+            .arrowLeft{
+                margin-right: 5px;
+                width: 8px;
+                height: 12px;
+            }
+            span{
+                font-size: 14px;
+            }
+            a{
+                font-weight: bold;
+                color: black;
+            }
+        }
+        .topRight{
+            
+            @include center;
+            
+          
+            label{
+                @include center;
+                font-weight:bolder;
+                font-size: 13px;
+                cursor: pointer;
+                margin-left: 20px;
+                .rightIcon{
+                    width: 20px;
+                    height: 22px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+.headerCenter{
+    @include center;
+    margin-top: 3px;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    padding: 5px;
+    
+    .centerComponent{
+        @include center;
+        justify-content: space-between;
+        width: 70%;
+
+        .search{
+            @include center;
+            justify-content: flex-start;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 0.5px solid #D8D8D8;
+            border-radius: 24px;
+            opacity: 1;
+            height: 48px;
+            width: 27%;
+            .searchImg{
+                width: 24px;
+                height: 24px;
+                margin: 0 5px 0 10px;
+            }
+            
+            
+            input{
+                margin-right: 10px;
+                border: none;
+                font-size: 14px;
+                font-weight: bold;
+                width: 90%;
+                
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+        .logoCenter{
+            img{
+                width: 85px;
+            }
+        }
+
+        .centerRight{
+            width: 32%;
+            @include center;
+            justify-content: space-evenly;
+            label{
+                @include center;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+                position: relative;
+                
+                
+                    .bag{
+                        width: 30px;
+                        height: 24px;
+                        margin-right: 5px;
+                    }
+                    .list{
+                        width: 26px;
+                        height: 24px;
+                        margin-right: 5px;
+
+                    }
+                    .login{
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 5px;
+
+                    }
+                
+            p{
+                position: absolute;
+                @include center;
+                max-width: 20px;
+                height: 10px;
+                padding: 3px;
+                background-color: $secondary-color;
+                color: black;
+                font-size: 10px;
+                border-radius: 50%;
+                top: -15px;
+                left: 15px;
+            }
+        }
+        }
+        
+    }
+    .floatClose{
+        position: fixed;
+        display: none;
+        justify-content: flex-end;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+        top: 0px;
+        background-color: rgb(0, 0, 0 ,.5) ;
+        z-index: 2;
+        box-shadow: -1.78px -1.78px 4px #00000040;
+        
+       
+        .cardWhite{
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            width: 25%;
+            background-color: white;
+           
+
+            .X{
+                position: absolute;
+                top: 3px;
+                right: 3px;
+                cursor: pointer;
+            }
+            .myCart{
+                @include center;
+                height: 48px;
+                margin-top: 30px;
+                span{
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+            }
+            .summary{
+                font-size: 18px;
+                font-weight: bold;
+                color: black;
+                position: relative;
+                width: 90%
+            }
+            .slecetedCard{
+                display: flex;
+                width: 90%;
+                max-height: 170px;
+                border-radius: 7px;
+                border: 0.75px solid #ECECEC;
+                position: relative;
+                .img{
+                    height: 100%;
+                    width: 35%;
+                    @include center;
+                    img{
+                        padding: 10px;
+                        margin-right: 5px;
+                    }
+                }
+                .info{
+                    width: 65%;
+                    word-break: break-all;
+                    p{
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    span{
+                        font-size: 11px;
+                    }
+                    h2{
+                        color: $primary-color;
+                        font-size: 20px;
+                    }
+                }
+                button{
+                    position: absolute;
+                    right: 10px;
+                    bottom: 10px;
+                   
+                    
+                }
+                .remove{
+                    width: 80px;
+                    height: 24px;
+                    border-radius: 12px;
+                    background-color: $secondary-color;
+                    color: black;
+                    border: none;
+                    cursor: pointer;
+                }
+
+            }
+            .total{
+                display: flex;
+                flex-direction: row;
+                h3{
+                    font-size:22px ; 
+                }
+                span{
+                    font-size: 22px;
+                }
+            }
+            .buttons{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 20px;
+                .review{
+                    height: 48px;
+                    width: 40%;
+                    border-radius: 24px;
+                    background-color: $secondary-color;
+                    color: black;
+                    font-weight: bold;
+                    border: none;
+                    cursor: pointer;
+                }
+                .Comp{
+                    height: 48px;
+                    width: 40%;
+                    font-weight: bold;
+                    border-radius: 24px;
+                    background-color: $primary-color;
+                    color: white;
+                    cursor: pointer;
+                    border: none;
+                }
+
+            }
+        }
+        .cardWhite::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        
+      }  
+      .floatOpen{
+        @extend .floatClose;
+        display: flex;
+      }
+}
+.headerBottom{
+    width: 100%;
+    background-color: black;
+    @include center;
+    flex-direction: column;
+    height: 48px;
+    >div {
+        @include center;
+        
+        width: 70%;
+        
+        nav{
+       width: 100%;
+        @include center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            
+        }
+        a.active{
+            color: red;
+            
+        }
+    }
+}}
+}
+
+@media screen and (max-width :1050px) {
+    .header .headerTop .topComponent .topRight label{
+        font-size: 8px;
+    }
+    
+    .header .headerTop .topComponent .topCenter {
+        display: none;
+        position: absolute;
+    }
+    .header .headerCenter .centerComponent .centerRight label{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .header .headerCenter .centerComponent .centerRight label .login{
+        width: 16px;
+        height: 16px;
+        
+    }
+    .header .headerCenter .centerComponent .centerRight label .list{
+        width: 16px;
+        height: 16px;
+    }
+    .header .headerCenter .centerComponent .centerRight label .bag{
+        width: 16px;
+        height: 16px;
+    }
+    .header .headerCenter .centerComponent .centerRight label p{
+        left: 8px;
+    }
+    .header .headerCenter .centerComponent .search{
+        height: 30px;
+    }
+    .header .headerBottom > div nav a{
+        font-size: 8px;
+    }
+    .header .headerCenter .centerComponent .logoCenter img{
+        width: 60px;
+    }
+    .header .headerTop .topComponent .topRight label .rightIcon{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width :650px) {
+    .header .headerTop .topComponent .topRight{
+        display: none;
+        position: absolute;
+    }
+    .header .headerTop .topComponent{
+        width: 30%;
+    }
+    
+}
