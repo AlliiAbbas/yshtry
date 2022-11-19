@@ -466,4 +466,13 @@
         font-size: 12px;
     }
     
+
+
 }  
+
+@media screen and (max-width:410px) {
+    .header .headerCenter .floatClose .cardWhite .slecetedCard .img img, .header .headerCenter .floatOpen .cardWhite .slecetedCard .img img{
+        width: 60px;
+    }
+    
+}
