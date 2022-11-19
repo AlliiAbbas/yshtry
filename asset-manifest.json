@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yshtry/static/css/main.5a845b11.css",
-    "main.js": "/yshtry/static/js/main.b3049094.js",
+    "main.css": "/yshtry/static/css/main.bd71f4b0.css",
+    "main.js": "/yshtry/static/js/main.7cbd2548.js",
     "static/media/Group 583.png": "/yshtry/static/media/Group 583.b33005cc5876ac700973.png",
     "static/media/Group 589.png": "/yshtry/static/media/Group 589.e7fe2169b217485bd13c.png",
     "static/media/Group 575.png": "/yshtry/static/media/Group 575.e6023fc05faf3c7c1931.png",
@@ -12,11 +12,11 @@
     "static/media/Group 329@2x.png": "/yshtry/static/media/Group 329@2x.5f16d414011155e693c0.png",
     "static/media/Group 1441.png": "/yshtry/static/media/Group 1441.cc2685535d4df5880e68.png",
     "index.html": "/yshtry/index.html",
-    "main.5a845b11.css.map": "/yshtry/static/css/main.5a845b11.css.map",
-    "main.b3049094.js.map": "/yshtry/static/js/main.b3049094.js.map"
+    "main.bd71f4b0.css.map": "/yshtry/static/css/main.bd71f4b0.css.map",
+    "main.7cbd2548.js.map": "/yshtry/static/js/main.7cbd2548.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a845b11.css",
-    "static/js/main.b3049094.js"
+    "static/css/main.bd71f4b0.css",
+    "static/js/main.7cbd2548.js"
   ]
 }
